@@ -3,7 +3,7 @@ from django.contrib import messages
 
 from website_admin.models import About_executive2_team, About_executive_team, About_functional_team, About_technical2_team, About_technical_team, News, Service, Message
 
-# Create your views here.
+# Create your views here......
 
 def home(request):
     return render(request, "index.html")
